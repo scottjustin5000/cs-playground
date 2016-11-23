@@ -22,7 +22,6 @@ module.exports = {
 			}
 		}
 		result = search(n);
-
 		return result;
 	},
 	memoNthFibonacci: function(n) {
@@ -43,7 +42,7 @@ module.exports = {
 		return search(n);
 	},
 	iterativeNthFibonacci: function(n) {
-		if(n == 0 || n === 1) {
+		if(n === 0 || n === 1) {
 			return n;
 		}
 		var prevPrev = 0;

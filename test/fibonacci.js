@@ -2,8 +2,8 @@ var fib = require('../fibonacci');
 
 describe('test fibonacci', function() {
 	it('should perform bottom up', function(done) {
-		var fibVal = fib.bottomUpNthFibonacci(5);
-		fibVal.should.equal(5);
+		var fibVal = fib.bottomUpNthFibonacci(9);
+		fibVal.should.equal(34);
 		done();
 	});
 	it('should perform top down', function(done) {
