@@ -31,6 +31,19 @@ function sort(array) {
 	}
 }
 
+function sort2(array) {
+	for(var i = 0; i < array.length; i++) {
+		var temp = array[i];
+		var pointer = i;
+		while(pointer > 0 && temp < array[pointer-1]) {
+			array[pointer] = array[pointer-1];
+			pointer--;
+		}
+		array[pointer] = temp;
+	}
+	return array;
+}
+
 module.exports = {
 	sort: sort
 }

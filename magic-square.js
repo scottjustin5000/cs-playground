@@ -1,5 +1,6 @@
 module.exports = {
 	generateOdd: function(n) {
+		
 		var magicSquare = [];
 		for (var i = 0; i < n; i++) {
 			magicSquare[i] = [];

@@ -29,5 +29,19 @@ module.exports = {
 			previous = 0;
 		}
 		return items;
+	},
+	sort2 : function(items) {
+		var temp;
+		var endIndex = items.length;
+		while(endIndex--) {
+			for(var i = 0; i < items.length; i++) {
+				if(items[i] > items[i+1]) {
+					var temp = items[i];
+					items[i] = items[i+1];
+					items[i+1] = temp;
+				}
+			}
+		}
+		return items;
 	}
 }

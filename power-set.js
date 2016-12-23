@@ -36,6 +36,7 @@ module.exports = {
 
 		return results;
 	},
+	
 	bin: function(str) {
 
 		function pad(s, size) {
