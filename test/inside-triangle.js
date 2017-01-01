@@ -1,4 +1,4 @@
-var insideTriangle = require('../inside-triangle');
+var insideTriangle = require('../exercises/inside-triangle');
 
 describe('test inside-triangle', function() {
 	it('should return true', function(done) {

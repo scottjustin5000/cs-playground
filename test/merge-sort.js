@@ -1,4 +1,4 @@
-var mergeSort = require('../merge-sort');
+var mergeSort = require('../sort/merge-sort');
 describe('test merge-sort', function() {
 	describe('test unordered list', function() {
 		it('should return ordered list', function(done){

@@ -1,4 +1,4 @@
-var fib = require('../fibonacci');
+var fib = require('../search/fibonacci');
 
 describe('test fibonacci', function() {
 	it('should perform bottom up', function(done) {

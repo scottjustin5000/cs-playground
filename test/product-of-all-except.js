@@ -1,4 +1,4 @@
-var productOfAll = require('../product-of-all-except');
+var productOfAll = require('../exercises/product-of-all-except');
 describe('test product of all except self', function() {
 	it('should return ordered list', function(done){
 		var prods = productOfAll.get([5,6,9,1]);

@@ -1,4 +1,4 @@
-var StockPrices = require('../stock-prices');
+var StockPrices = require('../exercises/stock-prices');
 
 describe('test Stock Price finder', function() {
 	it('should find max profit', function(done) {

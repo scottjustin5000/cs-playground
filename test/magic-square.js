@@ -1,4 +1,4 @@
-var magicSquare = require('../magic-square');
+var magicSquare = require('../math/magic-square');
 
 describe('test odd magic square', function() {
 	it('should sum 15', function(done) {

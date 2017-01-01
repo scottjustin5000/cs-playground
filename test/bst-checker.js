@@ -1,5 +1,5 @@
-var bstChecker = require('../bst-checker');
-var BinarySearchTree = require('../binary-search-tree');
+var bstChecker = require('../data-structures/bst-checker');
+var BinarySearchTree = require('../data-structures/binary-search-tree');
 
 describe('test bstChecker', function() {
 	var root;

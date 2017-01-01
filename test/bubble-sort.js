@@ -1,4 +1,4 @@
-var BubbleSort = require('../bubble-sort');
+var BubbleSort = require('../sort/bubble-sort');
 
 describe('test bubble sort', function() {
 	it('should sort data (bubble)', function(done){

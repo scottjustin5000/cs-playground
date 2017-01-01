@@ -1,4 +1,4 @@
-var BinarySearchTree = require('../binary-search-tree');
+var BinarySearchTree = require('../data-structures/binary-search-tree');
 
 describe('test binary search tree', function() {
 

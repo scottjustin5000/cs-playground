@@ -1,4 +1,4 @@
-var BoyerMoore = require('../boyer-moore');
+var BoyerMoore = require('../search/boyer-moore');
 
 describe('test boyer-moore search', function() {
 

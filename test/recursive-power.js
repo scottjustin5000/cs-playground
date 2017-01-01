@@ -1,4 +1,4 @@
-var recursivePow = require('../recursive-pow');
+var recursivePow = require('../recursion/recursive-pow');
 
 describe('test recursive pow', function() {
 	it('pow(3,0) should = 1', function(done){

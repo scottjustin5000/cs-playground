@@ -1,4 +1,4 @@
-var QuickSort = require('../quick-sort');
+var QuickSort = require('../sort/quick-sort');
 
 describe('test quick sort', function() {
 	it('should sort data (quick)', function(done){

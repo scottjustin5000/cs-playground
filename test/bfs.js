@@ -1,4 +1,4 @@
-var search = require('../graph-breadth-first');
+var search = require('../search/graph-breadth-first');
 
 describe('test breadth first search', function() {
 	it('should set nearest neighbor, distance from root', function(done) {

@@ -57,6 +57,11 @@ function partition(items, lp, rp) {
 // 		return q;
 // }
 
+/*
+var arr = [7,3,9,1,6,5];
+QuickSort.sort(arr, 0, arr.length -1);
+*/
+
 function quickSort(items, left, right) {
 	
 		if (items.length === 1) {

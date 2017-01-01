@@ -1,4 +1,4 @@
-var powerSet = require('../power-set');
+var powerSet = require('../recursion/power-set');
 
 describe('test recursive power set', function() {
 	it('return powerset for abc', function(done){

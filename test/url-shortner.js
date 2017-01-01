@@ -1,4 +1,4 @@
-var UrlShortner = require('../url-shortner');
+var UrlShortner = require('../exercises/url-shortner');
 
 describe('test url shortner abcdefghij', function() {
 	it('should shorten 123 = abc', function(done){

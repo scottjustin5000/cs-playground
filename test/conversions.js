@@ -1,4 +1,4 @@
-var conversions = require('../conversions');
+var conversions = require('../exercises/conversions');
 
 describe('test string conversions', function() {
 	it('should convert string to int', function(done){

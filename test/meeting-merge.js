@@ -1,4 +1,4 @@
-var meetingMerge = require('../meeting-merge');
+var meetingMerge = require('../exercises/meeting-merge');
 
 describe('test meeting merge', function() {
 	

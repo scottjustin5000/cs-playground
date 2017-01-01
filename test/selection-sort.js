@@ -1,4 +1,4 @@
-var SelectionSort = require('../selection-sort');
+var SelectionSort = require('../sort/selection-sort');
 
 describe('test selection sort', function() {
 	it('should sort data (selection)', function(done){

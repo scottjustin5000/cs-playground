@@ -1,4 +1,4 @@
-var HighestProduct = require('../highest-product');
+var HighestProduct = require('../exercises/highest-product');
 
 describe('test highest-product', function() {
 	it('should find highest product of 3, approach one', function(done) {

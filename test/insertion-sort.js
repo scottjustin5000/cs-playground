@@ -1,4 +1,4 @@
-var InsertionSort = require('../insertion-sort');
+var InsertionSort = require('../sort/insertion-sort');
 
 describe('test insertion sort', function() {
 	it('should sort data (insertion)', function(done){
